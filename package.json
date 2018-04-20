@@ -1,0 +1,32 @@
+{
+  "name": "express-reactJS-brunch_skeleton",
+  "description": "Basic skeleton for starting a reactjs project on express",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hjs": "~0.0.6",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "path": "^0.12.7",
+    "react": "^15.4",
+    "react-dom": "^15.4"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "~6.22",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "uglify-js-brunch": "^2"
+  }
+}
