@@ -9,7 +9,7 @@ git clone https://github.com/sebanime02/Express-ReactJS-Brunch-Skeleton.git
 ```
 
 ## Getting Started
-Install dependences of package.json
+Install dependencies of package.json
 
 ```
 npm install
