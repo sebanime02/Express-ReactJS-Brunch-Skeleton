@@ -10,8 +10,9 @@ module.exports = function startServer(port, path, callback)
   var indexRouter = require('./routes/index');
   var app = express();
 
-  // view engine setup
+  // view engine setup, views in app/assets as brunch documentation says.
   app.set('views', __dirname+'/app/assets/');
+  // I chose Hogan.js but you can change to jade,pug, etc. Just change app/assets templates.
   app.set('view engine', 'hjs');
 
   app.use(logger('dev'));
@@ -37,6 +38,7 @@ module.exports = function startServer(port, path, callback)
     res.render('error');
   });
 
+  //HTTP server running on port specified at brunch-config.js, firstable verify a PORT envirionment variable
   app.listen(process.env.PORT || port,callback);
 
 }
